@@ -16,15 +16,28 @@ body{
 }
 
 .beige{
-    background-color: beige;
+    background-color: rgb(237, 218, 185);
 }
 
 .brown{
-    background-color: brown;
+    background-color: rgb(174, 137, 104);
 }
 
 .square svg{
     height: 30px;
     width: 30px;
     margin: 5px;
+}
+
+.black{
+    fill: rgb(17, 17, 17);
+    stroke: white;
+    stroke-width: 20px;
+}
+
+.white{
+    fill: rgb(255, 255, 255);
+    stroke: black;
+    stroke-width: 20px;
+    /* stroke-linejoin: round; */
 }
