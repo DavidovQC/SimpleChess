@@ -13,7 +13,9 @@ body{
 .square{
     width: 40px;
     height: 40px;
+    position: relative;
 }
+
 
 .beige{
     background-color: rgb(237, 218, 185);
@@ -27,6 +29,18 @@ body{
     height: 30px;
     width: 30px;
     margin: 5px;
+    position: relative;
+    z-index: -9;
+}
+
+path{
+    position: relative;
+    z-index: -10;
+}
+
+.piece{
+    position: relative;
+    z-index: 9;
 }
 
 .black{
